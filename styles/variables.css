@@ -12,7 +12,8 @@
   --gap: 20px;
   --background-color: #000028;
   --plain-text: #F1B2CE;
-  --screen-size-capped: min(100vi,1024px);
+  --button-border-color: rgba(255, 0, 112, 1);
+  --button-border-color-hover: rgba(255, 0, 112, 0.4);
   --header-cover: url(../images/cover-image-dark.png);
 }
 
