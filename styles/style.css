@@ -392,3 +392,24 @@ img {
     margin-top: 40px;
   }
 }
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --accent-color: #FF8DCB;
+    --main-title: #FFC2E6;
+    --title-color: #353430;
+    --accent-text-color: #353430;
+    --gap: 20px;
+    --background-color: #FFF1F7;
+    --plain-text: #353430;
+    --button-border-color: rgba(53, 52, 48, 1);
+    --button-border-color-hover: rgba(50, 49, 45, 0.4);
+    --screen-size-capped: min(100vi,1024px);
+    --header-cover: url(../images/cover-image-light.png);
+    --corner-color:#353430;
+  }
+  
+  .page.theme_light .record{
+    display: none;
+  }
+} 
