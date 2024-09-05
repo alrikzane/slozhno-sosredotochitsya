@@ -5,11 +5,14 @@
 
 :root {
   --accent-color: #ff0070;
+  --title-color: #ff0070;
   --main-title: #db00ff;
   --accent-text-color: #000028;
+  --corner-color:#ff0070;
   --gap: 20px;
   --background-color: #000028;
   --plain-text: #F1B2CE;
   --screen-size-capped: min(100vi,1024px);
+  --header-cover: url(../images/cover-image-dark.png);
 }
 
