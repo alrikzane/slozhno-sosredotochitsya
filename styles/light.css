@@ -10,6 +10,7 @@
     чем стили в медиазапросе предпочтений пользователя
   */
   --accent-color: #FF8DCB;
+  --button-text-color: #353430;
   --main-title: #FFC2E6;
   --title-color: #353430;
   --accent-text-color: #353430;
@@ -21,8 +22,24 @@
   --screen-size-capped: min(100vi,1024px);
   --header-cover: url(../images/cover-image-light.png);
   --corner-color:#353430;
+  --switch: none;
 }
 
-.page.theme_light .record{
-  display: none;
+@media (prefers-color-scheme: light) {
+  :root {
+    --accent-color: #FF8DCB;
+    --button-text-color: #353430;
+    --main-title: #FFC2E6;
+    --title-color: #353430;
+    --accent-text-color: #353430;
+    --gap: 20px;
+    --background-color: #FFF1F7;
+    --plain-text: #353430;
+    --button-border-color: rgba(53, 52, 48, 1);
+    --button-border-color-hover: rgba(50, 49, 45, 0.4);
+    --screen-size-capped: min(100vi,1024px);
+    --header-cover: url(../images/cover-image-light.png);
+    --corner-color:#353430;
+    --switch: none;
+  }
 }

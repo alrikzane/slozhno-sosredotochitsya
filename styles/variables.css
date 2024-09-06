@@ -5,6 +5,7 @@
 
 :root {
   --accent-color: #ff0070;
+  --button-text-color: #ff0070;
   --title-color: #ff0070;
   --main-title: #db00ff;
   --accent-text-color: #000028;
@@ -15,5 +16,6 @@
   --button-border-color: rgba(255, 0, 112, 1);
   --button-border-color-hover: rgba(255, 0, 112, 0.4);
   --header-cover: url(../images/cover-image-dark.png);
+  --switch: flex;
 }
 
